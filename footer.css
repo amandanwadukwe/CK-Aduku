@@ -1,0 +1,55 @@
+.profile-picture{
+    width:150px;
+    height:150px;
+    border-radius:50vmax;
+}
+
+.left{
+    width:50%;
+}
+.right{
+    max-width:35%;
+}
+
+footer{
+    width:87vw;
+    padding: 5vw;
+    margin:3rem auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: black;
+    color: white;
+    position:relative;
+    bottom:0;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* body {background: green;} */
+
+    footer{
+        margin-top:8rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+        text-align:left;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* body {background: blue;} */
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* body {background: orange;} */
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* body {background: pink;} */
+}
