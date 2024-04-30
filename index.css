@@ -19,6 +19,10 @@ a:hover{
     color:var(--primary-color)
 }
 
+h1 a:hover{
+    color:var(--secondary-color)
+}
+
 h1{
     cursor:default;
 }

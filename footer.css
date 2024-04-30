@@ -4,11 +4,8 @@
     border-radius:50vmax;
 }
 
-.left{
-    width:50%;
-}
-.right{
-    max-width:35%;
+.left, .right{
+    width:90%;
 }
 
 footer{

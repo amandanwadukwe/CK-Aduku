@@ -46,6 +46,12 @@ p{
     margin:1.5rem;
 }
 
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
 .search{
     width: 80vw;
     margin: auto;
